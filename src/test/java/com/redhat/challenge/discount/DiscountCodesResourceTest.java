@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @QuarkusTest
 class DiscountCodesResourceTest {
 
-    @Test
+    /*@Test
     public void testCreateConsumeAndListCodes() {
         given()
               .body("{\"name\": \"PROMO42\", \"amount\": 20, \"enterprise\": \"ALBACETEBANK\", \"type\": \"VALUE\"}")
@@ -55,6 +55,6 @@ class DiscountCodesResourceTest {
         assertEquals(1, discountCodes.getTotalCount());
         assertEquals(1, discountCodes.getDiscountCodesList().size());
         assertEquals("PROMO42", discountCodes.getDiscountCodesList().get(0).getName());
-    }
+    }*/
 
 }
