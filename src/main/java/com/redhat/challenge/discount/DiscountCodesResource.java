@@ -17,7 +17,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.infinispan.manager.EmbeddedCacheManager;
 import org.infinispan.manager.DefaultCacheManager;
 import javax.inject.Inject;
